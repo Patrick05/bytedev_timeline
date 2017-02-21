@@ -1,0 +1,28 @@
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+    <f:flashMessages/>
+    <div class="timeline">
+        <div class="timeline__line"></div>
+        <ul class="timeline__dates">
+            <f:for each="{timeline.items}" as="date">
+                <li data-date="{date.date}">
+                    <div class="headline">{date.date}</div>
+                    <div class="dot"></div>
+                </li>
+            </f:for>
+        </ul>
+        <ul class="timeline__description">
+            <f:for each="{timeline.items}" as="date">
+                <li data-date="{date.date}">
+                    <h4>{date.title}</h4>
+                </li>
+            </f:for>
+        </ul>
+    </div>
+    <div class="timeline__controls">
+        <a class="timeline__prev">{settings.prevLabel}</a>
+        <a class="timeline__next">{settings.nextLabel}</a>
+    </div>
+</f:section>

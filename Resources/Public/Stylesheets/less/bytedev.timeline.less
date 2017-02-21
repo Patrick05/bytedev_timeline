@@ -1,0 +1,86 @@
+.tx-bytedev-timeline {
+    div.timeline {
+        position: relative;
+        overflow: hidden;
+
+        div.timeline__line {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #aaaaaa;
+            top: 74px;
+            z-index: 1;
+        }
+
+        ul.timeline__dates {
+            position: relative;
+            display: block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 1800px;
+            height: 100px;
+            z-index: 2;
+
+            li {
+                display: block;
+                float: left;
+                width: 200px;
+                text-align: center;
+                font-size: 1.3em;
+                height: 100px;
+                padding: 20px;
+
+                div.headline {
+                    height: 40px;
+                    line-height: 40px;
+                }
+
+                div.dot {
+                    height: 30px;
+                    width: 30px;
+                    background-color: #aaaaaa;
+                    border-radius: 20px;
+                    margin: auto;
+                    cursor: pointer;
+                }
+
+                &.active {
+                    div.headline {
+                        font-size: 1.5em;
+                        font-weight: bold;
+                        height: 40px;
+                        line-height: 40px;
+                    }
+
+                    div.dot {
+                        background-color: #830a0b;
+                    }
+                }
+            }
+        }
+
+        ul.timeline__description {
+            position: relative;
+            display: block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-height: 200px;
+
+            li {
+                display: block;
+                float: left;
+            }
+        }
+    }
+
+    div.timeline__controls {
+        a.timeline__prev {
+
+        }
+        a.timeline__next {
+
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<T3DataStructure>
+    <sheets>
+        <sheet1>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>General</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.timeline>
+                        <TCEforms>
+                            <label>Wähle Timeline:</label>
+                            <config>
+                                <type>select</type>
+                                <foreign_table>tx_bytedevtimeline_domain_model_timeline</foreign_table>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.timeline>
+                    <settings.prevLabel>
+                        <TCEforms>
+                            <label>Label of previous link</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.prevLabel>
+                    <settings.nextLabel>
+                        <TCEforms>
+                            <label>Label of next link</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.nextLabel>
+                </el>
+            </ROOT>
+        </sheet1>
+    </sheets>
+</T3DataStructure>

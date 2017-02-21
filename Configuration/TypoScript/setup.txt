@@ -1,0 +1,8 @@
+page.includeCSS {
+    tx_bytedev_timeline = EXT:bytedev_timeline/Resources/Public/Stylesheets/css/bytedev.timeline.css
+}
+
+page.includeJSFooter {
+    tx_bytedev_timeline = EXT:bytedev_timeline/Resources/Public/Scripts/bytedev.timeline.js
+}
+

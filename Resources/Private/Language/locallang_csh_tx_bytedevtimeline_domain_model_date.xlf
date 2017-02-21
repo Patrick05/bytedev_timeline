@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-02-21T08:59:52Z"
+          product-name="bytedev_timeline">
+        <header/>
+        <body>
+            <trans-unit id="date.description">
+                <source>date</source>
+            </trans-unit>
+            <trans-unit id="title.description">
+                <source>title</source>
+            </trans-unit>
+            <trans-unit id="highlight.description">
+                <source>highlight</source>
+            </trans-unit>
+            <trans-unit id="image.description">
+                <source>image</source>
+            </trans-unit>
+            <trans-unit id="description.description">
+                <source>description</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
